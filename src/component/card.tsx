@@ -36,7 +36,7 @@ function Card() {
 <div className=' grid grid-cols-4  mt-4 gap-4'>
 <button onClick={getValue} value='(' className='bg-white rounded p-1 shadow-lg border border-amber-600  hover:bg-slate-200'> ( </button>
 <button onClick={getValue}value=')' className='bg-white rounded p-1 shadow-lg border border-amber-600 hover:bg-slate-200'> ) </button>
-<button onClick={getValue}value='%'className='bg-white rounded p-1 shadow-lgborder border-amber-600 hover:bg-slate-200'>%  </button>
+<button onClick={getValue}value='/100'className='bg-white rounded p-1 shadow-lgborder border-amber-600 hover:bg-slate-200'>%  </button>
 <button onClick={clear}className='bg-yellow-500 rounded p-1 shadow-lg hover:bg-yellow-600'> AC </button>
 
 <button onClick={getValue}value='7'className='bg-white rounded p-1 shadow-lg border border-amber-600 hover:bg-slate-200'> 7 </button>
